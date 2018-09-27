@@ -1,0 +1,27 @@
+
+/* colours for headings */
+
+h1{
+	color: blue;
+}
+
+h2{
+	color: brown;
+}
+
+h3{
+	color: purple;
+}
+
+h4{
+	color: green;
+}
+
+h5{
+	color: red;
+}
+
+/* font style for paragraphs */
+p{
+	font-style: italic;
+}

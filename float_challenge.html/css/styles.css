@@ -1,0 +1,66 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 1%;
+    padding: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container div{
+    width: 200px;
+    height:200px;
+    float: right;
+    transition: 1s;
+}
+
+#red{
+    background-color:red;
+}
+#red:hover{
+    background-color: black;
+    transform: rotate(360deg);
+    width:50px;
+}
+#red:active{
+    background-color: darkorchid;
+}
+
+#orange{
+    background-color: orange;
+}
+#orange:hover{
+    background-color: black;
+    width:600px;
+    transform: rotate(360deg);
+}
+#orange:active{
+    background-color: darkorchid;
+}
+
+#blue{
+    background-color: blue;
+}
+#blue:hover{
+    background-color: black;
+    transform: rotate(360deg);
+}
+#blue:active{
+    background-color: darkorchid;
+}
+
+#green{
+    background-color: green;
+}
+#green:hover{
+    background-color: black;
+    transform: rotate(360deg);
+}
+#green:active{
+    background-color: darkorchid;
+}
+
+
